@@ -6,12 +6,6 @@ dotenv.config({
 })
 const PORT=process.env.PORT || 9000
 
-
-
-
-
-
-
 connectDB().then(()=>{
     app.listen(PORT,()=>{
     console.log(`server is running on the port http://localhost:${PORT}`)
